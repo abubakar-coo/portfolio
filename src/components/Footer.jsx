@@ -2,7 +2,6 @@ import { Box, IconButton, ListItem } from "@mui/material";
 import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
 const Footer = () => {
@@ -73,33 +72,7 @@ const Footer = () => {
               <FooterIcon {...icon} />
             ))}
           </Box>
-          <Box>
-            <ListItem
-              sx={{
-                borderLeft: { xs: "none", lg: "1px solid #1E2D3D" },
-                width: "max-content",
-                pt: "0px",
-                pb: "0px",
-              }}
-            >
-              <a
-                href="https://github.com/abdullaharif789"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <IconButton>
-                  <GitHubIcon
-                    sx={{
-                      color: "#607B96",
-                      "&:hover": {
-                        color: "#fff",
-                      },
-                    }}
-                  />
-                </IconButton>
-              </a>
-            </ListItem>
-          </Box>
+
         </Box>
       </footer>
     </Box>
