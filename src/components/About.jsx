@@ -38,7 +38,7 @@ const infoItems = [
     </p>
     <br/>
     - Delving deeper, the strategic intricacies of <strong>chess</strong> offer a mental sanctuary, a realm where foresight and tactics intertwine, mirroring the strategic planning essential in various aspects of life. <br/><br/>
-    - Beyond the digital realm, I find solace and camaraderie in the exhilarating world of <strong>football<strong>, where teamwork and adaptability reign supreme, fostering invaluable traits that transcend into my collaborative endeavors. <br/><br/>
+    - Beyond the digital realm, I find solace and camaraderie in the exhilarating world of <strong>football</strong>, where teamwork and adaptability reign supreme, fostering invaluable traits that transcend into my collaborative endeavors. <br/><br/>
     - And when the hum of algorithms fades, I embark on journeys of exploration and enlightenment, traversing the globe to immerse myself in diverse cultures, weaving the tapestry of human experience into the fabric of my creations. <br/><br/>
     <p>
       👨🏻‍💻 ♟️ ⚽️ 🌎

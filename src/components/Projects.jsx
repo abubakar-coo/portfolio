@@ -180,9 +180,10 @@ const Projects = () => {
               }}
             >
               {(item.stack || []).map((_item) => (
-                <Tooltip title={_item.name} placement="top">
+                <Tooltip key={_item.name} title={_item.name} placement="top">
                   <img
                     src={_item.icon}
+                    alt={_item.name}
                     style={{ width: "30px", cursor: "pointer" }}
                   />
                 </Tooltip>

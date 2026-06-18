@@ -63,6 +63,7 @@ const DetailSection = ({ selected }) => {
           </Box>
           {selected.detail.map((item) => (
             <Box
+              key={item.name}
               sx={{
                 display: "flex",
                 alignItems: "center",
