@@ -2,8 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Box, Grid, Typography } from "@mui/material";
 import Typed from "typed.js";
 import { motion } from "framer-motion";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { a11yDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+
 import GameBoard from "./Game/GameBoard";
 
 const Home = () => {
@@ -117,29 +116,7 @@ const Home = () => {
                   ref={el}
                 ></Typography>
               </Box>
-              <Box sx={{ mt: "50px", zIndex: "10" }}>
-                <Typography
-                  variant="body1"
-                  sx={{ color: "#607B96" }}
-                  gutterBottom
-                >
-                  &#47;&#47; find me on Github
-                </Typography>
-                <Typography variant="body1" sx={{ color: "#607B96" }}>
-                  <SyntaxHighlighter
-                    language="javascript"
-                    style={a11yDark}
-                    wrapLongLines="true"
-                    customStyle={{
-                      background: "none",
-                      color: "#607B96",
-                      padding: 0,
-                    }}
-                  >
-                    {'const githubLink = "github.com/abdullaharif789" '}
-                  </SyntaxHighlighter>
-                </Typography>
-              </Box>
+
             </Box>
           </Box>
         </Grid>
